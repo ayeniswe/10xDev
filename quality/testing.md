@@ -1,0 +1,9 @@
+# Testing Concepts
+## Regression Test
+## Unit Test
+## Smoke Test
+## API/Integration Test
+## I/O Test
+## Security Test
+## Performace Test
+## Acceptance Test
