@@ -77,9 +77,9 @@ pub fn publisher() {
             for consumer in self.consumers.iter() {
                 for subscription in consumer.get_subscription() {
                     match subscription {
-                        Subject::Fruit() => consumer.update("Fruits: Here is the orange you asked for")
-                        Subject::Meat() => consumer.update("Veggie: Here is the broccoli you asked for")
-                        Subject::Veggie() => consumer.update("Meat: Here is the fish you asked for")
+                        Subject::Fruit(_) => consumer.update("Fruits: Here is the orange you asked for"),
+                        Subject::Meat(_) => consumer.update("Veggie: Here is the broccoli you asked for"),
+                        Subject::Veggie(_) => consumer.update("Meat: Here is the fish you asked for"),
                     }
                 }
             }

@@ -1,0 +1,1 @@
+C:\Users\xadmin\Documents\10xDev\playground\rust\target\debug\rust.exe: C:\Users\xadmin\Documents\10xDev\playground\rust\src\design_patterns.rs C:\Users\xadmin\Documents\10xDev\playground\rust\src\main.rs
